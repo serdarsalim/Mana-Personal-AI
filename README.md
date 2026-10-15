@@ -10,11 +10,11 @@ This is the **real Mana client**, compiled with a demo flag. A [Mock Service Wor
 
 That means:
 
-- **Every tool actually works.** Add goals, tick off the week's commitments, log expenses, move groceries into the pantry, leave notes on people in your circle. It all saves, right in your browser.
+- **Use the tools by hand.** Add goals, tick off weekly tasks, log expenses, move groceries into the pantry, leave notes on people in your circles, study a sample learning path, or write a post. Edits save in your browser.
 - **It's yours alone.** Each visitor gets their own sandbox in their own browser. No accounts, no shared state, nothing sent anywhere.
-- **The chat and voice are a friendly teaser.** The one thing a demo can't do is think. Wire an LLM into your own self-hosted Mana and you drive all of it by talking, instead of clicking.
+- **Chat is scripted and voice is off.** AI claims checks, image generation, external publishing and background agents need your own connected Mana. Scheduling in this demo saves a local plan.
 
-No real data ships here, only fictional sample content for a made-up user.
+No private vault data ships here, only fictional sample content for a made-up user. Uploaded images also stay in browser storage and survive reloads. Settings → Reset demo clears your sandbox.
 
 ## How it works
 
@@ -38,7 +38,11 @@ python3 -m http.server 8080
 
 ## Deploying
 
-Vercel serves the prebuilt `public/` directory as static files. It does **not** build anything. `publish.sh` rebuilds the bundle from the live Mana client and drops it into `public/`; committing and pushing triggers a deploy.
+Vercel serves the prebuilt `public/` directory as static files. It does **not** build Mana. Run `./publish.sh` to fast-forward the local Mana source, check types and API contracts, rebuild `public/`, and scan the artifact. It never commits or pushes, and it never hard-resets source changes.
+
+Use `./publish.sh --local` to build a committed local source revision for review. `MANA_SRC` can select another local clone. Mounted vault paths are refused. `public/demo-build.json` records the source revision and build time so a deployment can be verified against the reviewed bundle.
+
+Commit the reviewed artifact, then push only after Serdar authorizes publication. Source fixes belong in the private Mana repo; the public repo holds only the compiled client, fictional fixtures and deployment scripts.
 
 ## License
 

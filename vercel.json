@@ -4,9 +4,21 @@
   "outputDirectory": "public",
   "framework": null,
   "rewrites": [
-    { "source": "/((?!assets/|twemoji/|mockServiceWorker.js|favicon.png).*)", "destination": "/index.html" }
+    { "source": "/((?!assets/|twemoji/|office-avatars/|mockServiceWorker.js|favicon.png|demo-build.json).*)", "destination": "/index.html" }
   ],
   "headers": [
+    {
+      "source": "/",
+      "headers": [{ "key": "Cache-Control", "value": "no-cache" }]
+    },
+    {
+      "source": "/index.html",
+      "headers": [{ "key": "Cache-Control", "value": "no-cache" }]
+    },
+    {
+      "source": "/demo-build.json",
+      "headers": [{ "key": "Cache-Control", "value": "no-cache" }]
+    },
     {
       "source": "/mockServiceWorker.js",
       "headers": [
