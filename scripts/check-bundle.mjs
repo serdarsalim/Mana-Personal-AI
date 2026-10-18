@@ -16,8 +16,9 @@ assert.ok(files.length > 0);
 const manifest = JSON.parse(await readFile(path.join(root, "demo-build.json"), "utf8"));
 assert.match(manifest.sourceRevision, /^[a-f0-9]{40}$/);
 const html = await readFile(path.join(root, "index.html"), "utf8");
-for (const match of html.matchAll(/(?:src|href)="(\/[^"?#]+)"/g)) {
-  assert.ok(files.includes(path.join(root, match[1])), `Missing HTML asset: ${match[1]}`);
+for (const match of html.matchAll(/(?:src|href)="(\/[^"]+)"/g)) {
+  const asset = new URL(match[1], "http://demo.test").pathname;
+  assert.ok(files.includes(path.join(root, asset)), `Missing HTML asset: ${match[1]}`);
 }
 for (const file of files) {
   assert.ok(!/\.(map|md|ts|sqlite|db|env)$/.test(file), `Private/source file in public output: ${file}`);
