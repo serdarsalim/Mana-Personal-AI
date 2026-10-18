@@ -12,7 +12,7 @@ That means:
 
 - **Use the tools by hand.** Add goals, tick off weekly tasks, log expenses, move groceries into the pantry, leave notes on people in your circles, study a sample learning path, or write a post. Edits save in your browser.
 - **It's yours alone.** Each visitor gets their own sandbox in their own browser. No accounts, no shared state, nothing sent anywhere.
-- **Chat is scripted and voice is off.** AI claims checks, image generation, external publishing and background agents need your own connected Mana. Scheduling in this demo saves a local plan.
+- **The owl has 20 scripted replies and animated reactions.** Chat starts collapsed so you can explore the tools first. Voice, AI claims checks, image generation, external publishing and background agents need your own connected Mana. Scheduling in this demo saves a local plan.
 
 No private vault data ships here, only fictional sample content for a made-up user. Uploaded images also stay in browser storage and survive reloads. Settings → Reset demo clears your sandbox.
 
