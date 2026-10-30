@@ -1,0 +1,6 @@
+The classic "suit" office character re-skinned onto the canonical 66-joint rig.
+Surface, materials and original skin weights come from Quaternius, Animated Men Pack (2019), CC0 1.0.
+The canonical rig and library motions are Mesh2Motion assets, CC0 1.0.
+Recorded walking, laptop typing and coffee sipping originate in the CMU Graphics Lab Motion Capture Database; BVH conversion by Bruce Hahne.
+The data used in this project was obtained from mocap.cs.cmu.edu. The database was created with funding from NSF EIA-0196217.
+Licences and rebuild steps: tools/newsroom/assets/classic-motion/README.md.

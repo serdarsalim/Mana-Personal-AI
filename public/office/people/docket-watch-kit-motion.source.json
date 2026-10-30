@@ -1,0 +1,645 @@
+{
+ "bytes": 634052,
+ "brotliBytes": 426848,
+ "triangles": 14139,
+ "drawCalls": 6,
+ "bones": 66,
+ "clips": [
+  "sit",
+  "sit-enter",
+  "sit-exit",
+  "sit-talk",
+  "idle-talk",
+  "idle-listen",
+  "idle",
+  "walk",
+  "type",
+  "type-high",
+  "type-mid",
+  "type-mid-high",
+  "type-far",
+  "type-far-high",
+  "sip",
+  "cup-hold",
+  "walk-cup"
+ ],
+ "materials": [
+  "Eyes",
+  "Skin",
+  "Hair",
+  "Shirt",
+  "Outfit",
+  "Shirtbutton"
+ ],
+ "textures": [
+  {
+   "name": "T_Eye_Brown",
+   "mime": "image/webp",
+   "size": [
+    256,
+    256
+   ],
+   "bytes": 1720
+  },
+  {
+   "name": "docket-watch-kit-skin-normal",
+   "mime": "image/webp",
+   "size": [
+    512,
+    512
+   ],
+   "bytes": 35104
+  },
+  {
+   "name": "docket-watch-kit-skin",
+   "mime": "image/webp",
+   "size": [
+    1024,
+    1024
+   ],
+   "bytes": 26442
+  },
+  {
+   "name": "docket-watch-kit-hair-normal",
+   "mime": "image/webp",
+   "size": [
+    512,
+    512
+   ],
+   "bytes": 46074
+  },
+  {
+   "name": "docket-watch-kit-hair",
+   "mime": "image/webp",
+   "size": [
+    512,
+    512
+   ],
+   "bytes": 5264
+  },
+  {
+   "name": "docket-watch-kit-outfit-normal",
+   "mime": "image/webp",
+   "size": [
+    512,
+    512
+   ],
+   "bytes": 42410
+  },
+  {
+   "name": "docket-watch-kit-outfit",
+   "mime": "image/webp",
+   "size": [
+    1024,
+    1024
+   ],
+   "bytes": 41800
+  }
+ ],
+ "walkSpeed": 1.311,
+ "source": {
+  "recipe": "tools/newsroom/assets/kit-cast/recipes/docket-watch-kit.json",
+  "kits": [
+   {
+    "pack": "Universal Base Characters (Standard, free)",
+    "author": "Quaternius",
+    "page": "https://quaternius.com/packs/universalbasecharacters.html",
+    "licence": "CC0-1.0",
+    "archiveSha256": "fdbf1804c90dfc1ea03e992bff7da2dfd1a79318e13270a660180f9308455f40",
+    "provenance": "tools/newsroom/assets/kit-cast/provenance/quaternius-universal-base-characters.json"
+   },
+   {
+    "pack": "Modular Character Outfits - Fantasy (Standard, free)",
+    "author": "Quaternius",
+    "page": "https://quaternius.com/packs/modularcharacteroutfitsfantasy.html",
+    "licence": "CC0-1.0",
+    "archiveSha256": "c3468b18871cc8c8f05ab14df7712baf22cb9f389cbd870babf130e595187f70",
+    "provenance": "tools/newsroom/assets/kit-cast/provenance/quaternius-modular-character-outfits-fantasy.json"
+   }
+  ],
+  "inputs": {
+   "authoring/source/kits/quaternius-modular-character-outfits-fantasy/extracted/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Outfits/Male_Peasant.gltf": "8f5a6cf6c1cf96e0a0f8e1a861b4245d42b7f88d44e5076da3d48f3fc52f4e76",
+   "authoring/source/kits/quaternius-modular-character-outfits-fantasy/extracted/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Outfits/Male_Peasant.bin": "e46bde795f7b69b351d322d7a5628e07131cfb48ed0afe366293f1b3f530433c",
+   "authoring/source/kits/quaternius-universal-base-characters/extracted/Universal Base Characters[Standard]/Base Characters/Godot - UE/Superhero_Male_FullBody.gltf": "e7fcea214ecf8855afbf910b50de6f9c7d1decfb71ca28bad8a4481452dafeb4",
+   "authoring/source/kits/quaternius-universal-base-characters/extracted/Universal Base Characters[Standard]/Base Characters/Godot - UE/Superhero_Male_FullBody.bin": "459003f9745853ae562a85506a2b94dd56515c1f37728f9fa3d2ce1a3e4cd92f",
+   "authoring/source/kits/quaternius-universal-base-characters/extracted/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_SimpleParted.gltf": "fe0f354d7f95d83d38e15c60794dcc063fa4d60550706f3d7ba51491cdc07c56",
+   "authoring/source/kits/quaternius-universal-base-characters/extracted/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_SimpleParted.bin": "ecd7c81959f3985d6254458a440daaaa18a8bfbb1dbe111c68a04a72374d54db",
+   "authoring/source/kits/quaternius-modular-character-outfits-fantasy/extracted/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Male_Peasant_Legs.gltf": "207933393b7a2ef436c0ffea65b70e35feaee084992e798c3eb31e0c771fabb0",
+   "authoring/source/kits/quaternius-modular-character-outfits-fantasy/extracted/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Male_Peasant_Legs.bin": "529bfc210a2de7e7ef6e704b59a11f88704068726cdda7d3b8db8e705273d5dc",
+   "authoring/source/kits/quaternius-modular-character-outfits-fantasy/extracted/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Male_Peasant_Feet.gltf": "191a2d70d6c2e550669bb7b1fc1c07be650d7168512e18eb2acb0e55d0535c52",
+   "authoring/source/kits/quaternius-modular-character-outfits-fantasy/extracted/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Male_Peasant_Feet.bin": "cb35f50fb3e784cac5e3193ed82034454af550a9e7f33d01345ce615d7b05add",
+   "authoring/source/kits/quaternius-modular-character-outfits-fantasy/extracted/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/T_Peasant_BaseColor.png": "a43635628d95571cd62fd4db0cc3a6ea32778b2bc02f242dda224c89d07f1ade",
+   "authoring/source/kits/quaternius-universal-base-characters/extracted/Universal Base Characters[Standard]/Base Characters/Textures/T_Superhero_Male_Ligh.png": "419f96dbb8811511e2d515bcdabc085ff2f219ec7b8b4e91050a84cba6888fe9",
+   "authoring/source/kits/quaternius-universal-base-characters/extracted/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Hair_1_BaseColor.png": "bc7aa863bd22ab0a995cd838cceb4d3a5186ee54ee2fb0108fad85d20c057e6e",
+   "authoring/source/kits/quaternius-modular-character-outfits-fantasy/extracted/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/T_Peasant_Normal.png": "7598fa7b63e46fd4dac29708bf5a81e05eb9a67280f7b13c61e28a9110eeb679",
+   "authoring/source/kits/quaternius-universal-base-characters/extracted/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Superhero_Male_Normal.png": "9b25cf9200216eb754b79cf4c63b5380c419780788322f3c57cdd2b3e02679a6",
+   "authoring/source/kits/quaternius-universal-base-characters/extracted/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Hair_1_Normal.png": "57fd0ad8c96a4d01b38769637e066cecaa285b456f6e48ce00863754a457affb"
+  },
+  "rigAndClips": "tools/newsroom/assets/classic-motion/build-reference.py (Mesh2Motion CC0 rig/library clips, CMU recorded walk/type/sip)"
+ },
+ "approximations": [
+  "Face, hands and black side-parted hair come from the free neutral male base assets.",
+  "The modern long-sleeve button-down is generated from the clean rigged base form with direct buttons, a spread collar and wrist cuffs; no fantasy shirt geometry is used.",
+  "The slate trousers are the kit lower body reshaped into straight legs; black shoes are the kit footwear cut down at the ankle."
+ ],
+ "calibration": {
+  "fixture": {
+   "seatTop": 0.46,
+   "deskTop": 0.71,
+   "keyTop": 0.74,
+   "note": "proof-stage seat/desk/keyboard; root .31 m ahead of the seat centre"
+  },
+  "seatLiftM": 0.02299356188480322,
+  "legRatio": 1.0100639811393317,
+  "typing": {
+   "keyTop": 0.74,
+   "keyForward": 0.060000000000000005,
+   "high": 0.08,
+   "far": 0.24,
+   "seatTop": 0.4639,
+   "seatBack": 0.31,
+   "profileStep": 0.02
+  },
+  "contacts": {
+   "idle-a": {
+    "ground": [
+     0.002,
+     0.002
+    ]
+   },
+   "walk-library": {
+    "ground": [
+     0.002,
+     0.002
+    ]
+   },
+   "walk-carry": {
+    "ground": [
+     0.002,
+     0.002
+    ]
+   },
+   "sit": {
+    "feet": [
+     0,
+     0
+    ],
+    "thigh_hand_l": [
+     -0.0145,
+     -0.0145
+    ],
+    "thigh_hand_r": [
+     -0.037,
+     -0.0337
+    ],
+    "ground": [
+     0.002,
+     0.002
+    ],
+    "seat": [
+     0.0039,
+     0.0039
+    ]
+   },
+   "sit-enter": {
+    "feet": [
+     0,
+     0
+    ],
+    "thigh_hand_l": [
+     -0.1654,
+     0.2225
+    ],
+    "thigh_hand_r": [
+     -0.064,
+     0.2767
+    ],
+    "ground": [
+     0.002,
+     0.002
+    ],
+    "seat": [
+     0.0038,
+     0.01
+    ]
+   },
+   "sit-exit": {
+    "feet": [
+     0,
+     0
+    ],
+    "thigh_hand_l": [
+     -0.0804,
+     0.2431
+    ],
+    "thigh_hand_r": [
+     -0.0469,
+     0.2767
+    ],
+    "ground": [
+     0.002,
+     0.002
+    ],
+    "seat": [
+     0.0039,
+     0.0121
+    ]
+   },
+   "sit-talk": {
+    "feet": [
+     0,
+     0
+    ],
+    "ground": [
+     0.002,
+     0.002
+    ],
+    "seat": [
+     0.0039,
+     0.0063
+    ]
+   },
+   "idle-talk": {
+    "ground": [
+     0.002,
+     0.002
+    ]
+   },
+   "consume": {
+    "ground": [
+     0.002,
+     0.002
+    ]
+   },
+   "pickup": {
+    "ground": [
+     0.002,
+     0.002
+    ]
+   },
+   "idle-variation": {
+    "ground": [
+     0.002,
+     0.002
+    ]
+   },
+   "idle-listen": {
+    "ground": [
+     0.002,
+     0.002
+    ]
+   },
+   "rest-pose": {
+    "ground": [
+     0.002,
+     0.002
+    ]
+   },
+   "turn-left": {
+    "ground": [
+     0.002,
+     0.002
+    ]
+   },
+   "turn-right": {
+    "ground": [
+     0.002,
+     0.002
+    ]
+   },
+   "idle": {
+    "ground": [
+     0.002,
+     0.002
+    ]
+   },
+   "walk": {
+    "ground": [
+     0.002,
+     0.002
+    ],
+    "strideSpeedRatio": 1.0239,
+    "walkSpeed": 1.311
+   },
+   "type": {
+    "feet": [
+     0,
+     0
+    ],
+    "reach_l": [
+     0,
+     0
+    ],
+    "reach_r": [
+     0,
+     0
+    ],
+    "keys_l": [
+     0.002,
+     0.002
+    ],
+    "desk_l": [
+     0.0358,
+     0.0447
+    ],
+    "keys_r": [
+     0.002,
+     0.002
+    ],
+    "desk_r": [
+     0.0286,
+     0.0425
+    ],
+    "hand_gap": [
+     0.015,
+     0.015
+    ],
+    "ground": [
+     0.002,
+     0.002
+    ],
+    "seat": [
+     0.0039,
+     0.0039
+    ]
+   },
+   "type-high": {
+    "feet": [
+     0,
+     0
+    ],
+    "reach_l": [
+     0,
+     0
+    ],
+    "reach_r": [
+     0,
+     0
+    ],
+    "keys_l": [
+     0.002,
+     0.002
+    ],
+    "desk_l": [
+     0.0368,
+     0.0494
+    ],
+    "keys_r": [
+     0.002,
+     0.002
+    ],
+    "desk_r": [
+     0.0286,
+     0.0463
+    ],
+    "hand_gap": [
+     0.015,
+     0.015
+    ],
+    "ground": [
+     0.002,
+     0.002
+    ],
+    "seat": [
+     0.0039,
+     0.0039
+    ]
+   },
+   "type-mid": {
+    "feet": [
+     0,
+     0
+    ],
+    "reach_l": [
+     0,
+     0
+    ],
+    "reach_r": [
+     0,
+     0
+    ],
+    "keys_l": [
+     0.002,
+     0.002
+    ],
+    "desk_l": [
+     0.0353,
+     0.0425
+    ],
+    "keys_r": [
+     0.002,
+     0.002
+    ],
+    "desk_r": [
+     0.0286,
+     0.0408
+    ],
+    "hand_gap": [
+     0.015,
+     0.015
+    ],
+    "ground": [
+     0.002,
+     0.002
+    ],
+    "seat": [
+     0.0039,
+     0.0039
+    ]
+   },
+   "type-mid-high": {
+    "feet": [
+     0,
+     0
+    ],
+    "reach_l": [
+     0,
+     0
+    ],
+    "reach_r": [
+     0,
+     0
+    ],
+    "keys_l": [
+     0.002,
+     0.002
+    ],
+    "desk_l": [
+     0.0364,
+     0.0469
+    ],
+    "keys_r": [
+     0.002,
+     0.002
+    ],
+    "desk_r": [
+     0.0286,
+     0.0438
+    ],
+    "hand_gap": [
+     0.015,
+     0.015
+    ],
+    "ground": [
+     0.002,
+     0.002
+    ],
+    "seat": [
+     0.0039,
+     0.0039
+    ]
+   },
+   "type-far": {
+    "feet": [
+     0,
+     0
+    ],
+    "reach_l": [
+     0.0273,
+     0.0437
+    ],
+    "reach_r": [
+     0,
+     0.0413
+    ],
+    "keys_l": [
+     0.0163,
+     0.0238
+    ],
+    "desk_l": [
+     0.0483,
+     0.0594
+    ],
+    "keys_r": [
+     0.002,
+     0.0226
+    ],
+    "desk_r": [
+     0.0286,
+     0.0527
+    ],
+    "hand_gap": [
+     0.0153,
+     0.0178
+    ],
+    "ground": [
+     0.002,
+     0.002
+    ],
+    "seat": [
+     0.0039,
+     0.0039
+    ]
+   },
+   "type-far-high": {
+    "feet": [
+     0,
+     0
+    ],
+    "reach_l": [
+     0,
+     0.0087
+    ],
+    "reach_r": [
+     0,
+     0.0065
+    ],
+    "keys_l": [
+     0.002,
+     0.0052
+    ],
+    "desk_l": [
+     0.0341,
+     0.0431
+    ],
+    "keys_r": [
+     0.002,
+     0.0044
+    ],
+    "desk_r": [
+     0.0286,
+     0.0407
+    ],
+    "hand_gap": [
+     0.015,
+     0.0156
+    ],
+    "ground": [
+     0.002,
+     0.002
+    ],
+    "seat": [
+     0.0039,
+     0.0039
+    ]
+   },
+   "sip": {
+    "feet": [
+     0,
+     0
+    ],
+    "thigh_hand_l": [
+     0.003,
+     0.003
+    ],
+    "rim_mouth": {
+     "atPeaksMaxM": 0.0014,
+     "peakFrames": 35,
+     "tiltDegAtPeaks": [
+      29.2,
+      56.4
+     ]
+    },
+    "cup_body": [
+     0,
+     0
+    ],
+    "hand_in_cup": [
+     0,
+     0
+    ],
+    "ground": [
+     0.002,
+     0.002
+    ],
+    "seat": [
+     0.0039,
+     0.0039
+    ]
+   },
+   "cup-hold": {
+    "cup_body": [
+     0,
+     0
+    ],
+    "hand_in_cup": [
+     0,
+     0
+    ],
+    "ground": [
+     0.002,
+     0.002
+    ]
+   },
+   "walk-cup": {
+    "cup_body": [
+     0,
+     0
+    ],
+    "hand_in_cup": [
+     0,
+     0
+    ],
+    "ground": [
+     0.002,
+     0.002
+    ]
+   }
+  }
+ },
+ "status": "office cast: contacts baked against the proof-stage fixture; at real desks the office seats the body from the typing calibration in the asset (scene extras)",
+ "authoring": "tools/newsroom/assets/kit-cast/assemble-kit.py, adapt-kit.py, pack-kit.mjs",
+ "docket-watch-kit-motion.glb": {
+  "sha256": "6cc17c3e37ec4915d8ed422b5ceed34f7e6a9c10d3aeb93889c2c2a845c2f195"
+ }
+}

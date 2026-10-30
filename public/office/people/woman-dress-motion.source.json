@@ -1,0 +1,455 @@
+{
+ "bytes": 300240,
+ "triangles": 7658,
+ "bones": 66,
+ "clips": [
+  "sit",
+  "sit-enter",
+  "sit-exit",
+  "sit-talk",
+  "idle-talk",
+  "idle-listen",
+  "idle",
+  "walk",
+  "type",
+  "type-high",
+  "type-mid",
+  "type-mid-high",
+  "type-far",
+  "type-far-high",
+  "sip",
+  "cup-hold",
+  "walk-cup"
+ ],
+ "materials": [
+  "Skin",
+  "Eyes",
+  "Hair",
+  "Dress",
+  "Shoes"
+ ],
+ "walkSpeed": 1.115,
+ "source": {
+  "surface": "dashboard/public/office/people/woman-dress.glb (Quaternius Animated Women Pack, CC0)",
+  "sha256": "c28057552f0c80b4d7ae74f74cde7bb290dca5cc65bc7bd98494d8676c8b3e16",
+  "rigAndClips": "motion-reference.blend from build-reference.py (Mesh2Motion CC0 rig and library clips, CMU recorded walk, type and sip)"
+ },
+ "calibration": {
+  "fixture": {
+   "seatTop": 0.46,
+   "deskTop": 0.71,
+   "keyTop": 0.74,
+   "note": "proof-stage seat/desk/keyboard; root .31 m ahead of the seat centre"
+  },
+  "seatLiftM": 0.12777481000301588,
+  "legRatio": 0.8564653154236789,
+  "typing": {
+   "keyTop": 0.74,
+   "keyForward": 0.060000000000000005,
+   "high": 0.08,
+   "far": 0.24,
+   "seatTop": 0.4639,
+   "seatBack": 0.31,
+   "profileStep": 0.02
+  },
+  "contacts": {
+   "sit": {
+    "feet": [
+     0,
+     0
+    ],
+    "ground": [
+     0.0009,
+     0.0009
+    ],
+    "seat": [
+     0.0039,
+     0.0039
+    ]
+   },
+   "sit-enter": {
+    "feet": [
+     0,
+     0
+    ],
+    "ground": [
+     -0.0012,
+     0.002
+    ],
+    "seat": [
+     0.0039,
+     0.007
+    ]
+   },
+   "sit-exit": {
+    "feet": [
+     0,
+     0
+    ],
+    "ground": [
+     -0.0012,
+     0.002
+    ],
+    "seat": [
+     0.0026,
+     0.0039
+    ]
+   },
+   "sit-talk": {
+    "feet": [
+     0,
+     0
+    ],
+    "ground": [
+     0.0002,
+     0.0009
+    ],
+    "seat": [
+     0.0039,
+     0.0044
+    ]
+   },
+   "idle-talk": {
+    "ground": [
+     0.002,
+     0.002
+    ]
+   },
+   "idle-listen": {
+    "ground": [
+     0.002,
+     0.002
+    ]
+   },
+   "idle": {
+    "ground": [
+     0.002,
+     0.002
+    ]
+   },
+   "walk": {
+    "ground": [
+     0.002,
+     0.002
+    ],
+    "strideSpeedRatio": 0.8714,
+    "walkSpeed": 1.115
+   },
+   "type": {
+    "feet": [
+     0,
+     0
+    ],
+    "reach_l": [
+     0,
+     0
+    ],
+    "reach_r": [
+     0,
+     0
+    ],
+    "keys_l": [
+     0.002,
+     0.002
+    ],
+    "desk_l": [
+     0.0412,
+     0.0553
+    ],
+    "keys_r": [
+     0.002,
+     0.002
+    ],
+    "desk_r": [
+     0.0316,
+     0.0576
+    ],
+    "hand_gap": [
+     0.015,
+     0.015
+    ],
+    "ground": [
+     0.0009,
+     0.0009
+    ],
+    "seat": [
+     0.0039,
+     0.0039
+    ]
+   },
+   "type-high": {
+    "feet": [
+     0,
+     0
+    ],
+    "reach_l": [
+     0,
+     0
+    ],
+    "reach_r": [
+     0,
+     0
+    ],
+    "keys_l": [
+     0.002,
+     0.002
+    ],
+    "desk_l": [
+     0.0415,
+     0.055
+    ],
+    "keys_r": [
+     0.002,
+     0.002
+    ],
+    "desk_r": [
+     0.0316,
+     0.0576
+    ],
+    "hand_gap": [
+     0.015,
+     0.015
+    ],
+    "ground": [
+     0.0009,
+     0.0009
+    ],
+    "seat": [
+     0.0039,
+     0.0039
+    ]
+   },
+   "type-mid": {
+    "feet": [
+     0,
+     0
+    ],
+    "reach_l": [
+     0,
+     0
+    ],
+    "reach_r": [
+     0,
+     0
+    ],
+    "keys_l": [
+     0.002,
+     0.002
+    ],
+    "desk_l": [
+     0.0412,
+     0.0552
+    ],
+    "keys_r": [
+     0.002,
+     0.002
+    ],
+    "desk_r": [
+     0.0316,
+     0.0576
+    ],
+    "hand_gap": [
+     0.015,
+     0.015
+    ],
+    "ground": [
+     0.0009,
+     0.0009
+    ],
+    "seat": [
+     0.0039,
+     0.0039
+    ]
+   },
+   "type-mid-high": {
+    "feet": [
+     0,
+     0
+    ],
+    "reach_l": [
+     0,
+     0
+    ],
+    "reach_r": [
+     0,
+     0
+    ],
+    "keys_l": [
+     0.002,
+     0.002
+    ],
+    "desk_l": [
+     0.0417,
+     0.055
+    ],
+    "keys_r": [
+     0.002,
+     0.002
+    ],
+    "desk_r": [
+     0.0316,
+     0.0576
+    ],
+    "hand_gap": [
+     0.015,
+     0.015
+    ],
+    "ground": [
+     0.0009,
+     0.0009
+    ],
+    "seat": [
+     0.0039,
+     0.0039
+    ]
+   },
+   "type-far": {
+    "feet": [
+     0,
+     0
+    ],
+    "reach_l": [
+     0,
+     0
+    ],
+    "reach_r": [
+     0,
+     0
+    ],
+    "keys_l": [
+     0.002,
+     0.002
+    ],
+    "desk_l": [
+     0.0412,
+     0.0553
+    ],
+    "keys_r": [
+     0.002,
+     0.002
+    ],
+    "desk_r": [
+     0.0316,
+     0.0576
+    ],
+    "hand_gap": [
+     0.015,
+     0.015
+    ],
+    "ground": [
+     0.0009,
+     0.0009
+    ],
+    "seat": [
+     0.0039,
+     0.0039
+    ]
+   },
+   "type-far-high": {
+    "feet": [
+     0,
+     0
+    ],
+    "reach_l": [
+     0,
+     0
+    ],
+    "reach_r": [
+     0,
+     0
+    ],
+    "keys_l": [
+     0.002,
+     0.002
+    ],
+    "desk_l": [
+     0.0417,
+     0.055
+    ],
+    "keys_r": [
+     0.002,
+     0.002
+    ],
+    "desk_r": [
+     0.0316,
+     0.0576
+    ],
+    "hand_gap": [
+     0.015,
+     0.015
+    ],
+    "ground": [
+     0.0009,
+     0.0009
+    ],
+    "seat": [
+     0.0039,
+     0.0039
+    ]
+   },
+   "sip": {
+    "feet": [
+     0,
+     0
+    ],
+    "rim_mouth": {
+     "atPeaksMaxM": 0.0049,
+     "peakFrames": 35,
+     "tiltDegAtPeaks": [
+      22.6,
+      50.6
+     ]
+    },
+    "cup_body": [
+     0,
+     0
+    ],
+    "hand_in_cup": [
+     0,
+     0
+    ],
+    "ground": [
+     0.0009,
+     0.0009
+    ],
+    "seat": [
+     0.0039,
+     0.0039
+    ]
+   },
+   "cup-hold": {
+    "cup_body": [
+     0,
+     0
+    ],
+    "hand_in_cup": [
+     0,
+     0
+    ],
+    "ground": [
+     0.002,
+     0.002
+    ]
+   },
+   "walk-cup": {
+    "cup_body": [
+     0,
+     0
+    ],
+    "hand_in_cup": [
+     0,
+     0
+    ],
+    "ground": [
+     0.002,
+     0.002
+    ]
+   }
+  }
+ },
+ "status": "contacts baked offline against the office lab proof stage; at real desks the office seats the body from the typing calibration in the asset (scene extras)",
+ "authoring": "tools/newsroom/assets/classic-motion/ (adapt-classic.py, pack-classic.mjs)",
+ "woman-dress-motion.glb": {
+  "sha256": "3bfc8a7f717c617ae6f49f6464d801171689d9d9b6a510f6050999cf7225c8e1"
+ }
+}
