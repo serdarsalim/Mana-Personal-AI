@@ -1,6 +1,6 @@
 {
- "bytes": 634052,
- "brotliBytes": 426848,
+ "bytes": 636328,
+ "brotliBytes": 427776,
  "triangles": 14139,
  "drawCalls": 6,
  "bones": 66,
@@ -256,7 +256,7 @@
     ],
     "seat": [
      0.0039,
-     0.0063
+     0.0039
     ]
    },
    "idle-talk": {
@@ -640,6 +640,6 @@
  "status": "office cast: contacts baked against the proof-stage fixture; at real desks the office seats the body from the typing calibration in the asset (scene extras)",
  "authoring": "tools/newsroom/assets/kit-cast/assemble-kit.py, adapt-kit.py, pack-kit.mjs",
  "docket-watch-kit-motion.glb": {
-  "sha256": "6cc17c3e37ec4915d8ed422b5ceed34f7e6a9c10d3aeb93889c2c2a845c2f195"
+  "sha256": "ab6b45677f1d3d2e6c3fabe9a3f0f9b105a828c7bb4529544a36947284da8d4e"
  }
 }
