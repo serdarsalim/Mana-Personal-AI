@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy · Mana</title>
+<link rel="icon" href="/favicon.png">
+<style>
+  :root { color-scheme: light dark; --ink: #18181b; --muted: #71717a; --line: #e4e4e7; --bg: #fff; }
+  @media (prefers-color-scheme: dark) { :root { --ink: #f4f4f5; --muted: #a1a1aa; --line: #27272a; --bg: #0a0a0a; } }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 56px 24px 80px; }
+  h1 { font-size: 28px; line-height: 1.2; margin: 0 0 4px; font-weight: 600; }
+  h2 { font-size: 17px; margin: 36px 0 8px; font-weight: 600; }
+  p, li { margin: 0 0 12px; }
+  ul { padding-left: 20px; margin: 0 0 12px; }
+  .muted { color: var(--muted); font-size: 14px; }
+  a { color: inherit; }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 40px 0 16px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy</h1>
+  <p class="muted">Last updated 26 November 2026</p>
+
+  <p>Mana is a personal app that Serdar Salim runs on his own computer for himself, his family and a few people he invites. It isn't a company product and it has no ads. This page says what it keeps about you and who else sees it.</p>
+
+  <h2>Signing in with Google</h2>
+  <p>When you sign in, Google tells Mana your email address and your name. Mana uses the email for one thing: checking it against the list of people Serdar has added. If you're on the list you get in. If you aren't, you see a page saying so and nothing about you is kept beyond a line in the access log.</p>
+  <p>Mana asks Google for nothing else. It can't read your Gmail, Drive, contacts or calendar.</p>
+
+  <h2>What Mana keeps</h2>
+  <ul>
+    <li>What you put in: notes, goals, chats, lists and anything else you write in the app.</li>
+    <li>When you last came in, and whether it was through the web address or Serdar's private network.</li>
+  </ul>
+  <p>All of it lives on Serdar's computer. It isn't sold, rented or shared for marketing.</p>
+
+  <h2>Who else handles it</h2>
+  <ul>
+    <li><strong>Cloudflare</strong> carries the connection between your browser and Mana and handles the Google sign-in step.</li>
+    <li><strong>Anthropic</strong> runs the AI. If Serdar has turned AI on for you, your chat and voice messages, plus the notes they need, go to Anthropic's Claude to get an answer. If AI is off for you, nothing of yours goes there.</li>
+    <li><strong>Google</strong> confirms who you are when you sign in.</li>
+  </ul>
+
+  <h2>Leaving</h2>
+  <p>Ask Serdar to remove you and the door closes on every device straight away. Your notes stay in case you come back. If you'd rather they were deleted, say so and he'll delete them.</p>
+
+  <h2>The public demo</h2>
+  <p>The demo at mana.serdarsalim.com runs on sample data in your own browser. What you type there stays in your browser's storage and never reaches a server. It counts page visits with Vercel Web Analytics, which uses no cookies.</p>
+
+  <h2>Questions</h2>
+  <p>Ask Serdar directly, or get in touch through <a href="https://serdarsalim.com">serdarsalim.com</a>.</p>
+
+  <hr>
+  <p class="muted"><a href="/">Back to Mana</a></p>
+</main>
+</body>
+</html>
